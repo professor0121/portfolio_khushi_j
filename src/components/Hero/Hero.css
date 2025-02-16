@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    min-height: 100vh;
+    /* width: 100%; */
+    background-color: black;
+    color: #fff;
+    /* padding: 20px; */
+}
+
+.hero-content {
+    text-align: left; /* Align text to the left */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) of the container */
+    margin-top: -200px; /* Adjust as needed */
+    /* margin-left: 50px; Add left margin to move content from the edge */
+    width: 50%; /* Optional: You can add a max-width or width so the content does not occupy all the width*/
+    /* position: absolute; */
+    /* left: 10%; */
+    /* padding-left: 25px; */
+}
+
+.hero-title {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family:"emoji";
+}
+
+.hero-title span {
+    color: #2196F3;
+}
+
+.hero-description {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family:"emoji";
+    max-width: 100%; /* Let description take full width of container */
+}
+
+.hero-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.hero-icons a {
+    color: #fff;
+    transition: color 0.3s ease;
+    display: inline-flex; /* Make the <a> a flex container */
+    align-items: center; /* Vertically center the icon */
+    justify-content: center; /* Horizontally center the icon */
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    border-radius: 50%; /* Make it a circle */
+    background-color: transparent; /* Transparent background */
+    border: 1px solid gray; /* Add a transparent border */
+}
+
+.hero-icons a:hover {
+    color: white;
+    border-color: #2196F3; /* Border color on hover */
+    border-color: #2196F3; /* Border color on hover */
+    background-color: #2196F3; /* Semi-transparent background on hover */
+}
+
+.hero-icons svg {
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,161 @@
+.navbar-placeholder{
+    overflow: hidden;
+   }
+   .bg-dark {
+       background-color: rgb(116, 96, 96);
+       height: 100vh;
+       
+     }
+     
+     img{
+       margin-bottom: 50px;
+     }
+     .text-light {
+       color: #d1d5db;
+     }
+     
+     .w-1\/4 {
+       width: 20%;
+     }
+     
+     .p-4 {
+       padding: 1.5rem;
+     }
+     
+     .flex {
+       display: flex;
+     }
+     
+     .flex-col {
+       flex-direction: column;
+     }
+     
+     .items-center {
+       align-items: center;
+     }
+     
+     .text-center {
+       text-align: center;
+     }
+     
+     .rounded-full {
+       border-radius: 9999px;
+       border: 3px solid #2196F3;;
+     }
+     
+     .w-32 {
+       width: 12rem;
+     }
+     
+     .h-32 {
+       height: 12rem;
+     }
+     
+     .mb-4 {
+       margin-bottom: 2rem;
+     }
+     .p-4{
+       margin-top: 2rem;
+     }
+     .space-y-4 > * + * {
+       margin-top: 2rem;
+     }
+     
+    
+     .mt-6 {
+       margin-top: 2rem;
+     }
+     
+     .py-2 {
+       padding-top: 0.75rem;
+       padding-bottom: 0.75rem;
+     }
+     
+     .px-4 {
+       padding-left: 2.5rem;
+       padding-right: 2.5rem;
+     }
+     
+     .border {
+       border-width: 2.5px;
+     }
+     
+     .border-yellow-500 {
+       border-color: #2196F3;
+   
+     }
+     
+     .text-yellow-500 {
+      color: white;
+       font-weight: bold;
+       font-size: 1em;
+       background-color: transparent;
+     }
+   
+     .rounded-xl {
+       border-radius: 2rem;
+     }
+     
+     .hover\:bg-yellow-500:hover {
+       background-color: #2196F3;
+       transition: background-color 0.3s ease;
+       
+     }
+     
+     .hover\:text-dark:hover {
+       color: #0a0a0a;
+     }
+     
+       .sidebar {
+      position: fixed;
+       background-color: black;
+       color: white;
+       height: 100vh;
+       width: 320px;
+      border-right: 2px solid rgb(96, 146, 202);
+     }
+     
+     .sidebar a {
+       text-decoration: none;
+       text-transform: capitalize;
+       font-size: 20px;
+       cursor: pointer;
+       font-weight: 500;
+       color: white;
+       border: none;
+       outline: none;
+       display: block; /* Make the entire list item clickable */
+         transition: color 0.3s ease; /* Smooth color transition */
+   }
+       
+   .sidebar a:hover {
+     color: #2196F3; /* Change color on hover */
+   }
+   
+   .sidebar li:hover {
+     border-bottom-color: #2196F3; /* Underline on hover */
+   }
+   /* Button Animation */
+   .rounded-xl { /* Assuming this is your button class */
+     /* ... other styles */
+     transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add transitions */
+   }
+   
+   .rounded-xl:hover {
+     transform: translateY(-2px); /* Move up slightly on hover */
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+   }
+   
+   .rounded-xl:active {
+     transform: translateY(0); /* Reset position on click */
+     box-shadow: none; /* Remove shadow on click */
+   }
+   
+   
+     .sidebar li{
+       padding: 1rem 0.7rem;
+       list-style: none;
+     }
+   
+     
+     
